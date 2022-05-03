@@ -1,0 +1,21 @@
+.navbar-brand{
+    display: inline-block;
+    margin-right: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #99ff33 0%, #ffff00 100%);
+    -webkit-background-clip: text;
+        background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-left: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}.nav-item{
+    font-weight: bold;       
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #99ff33 0%, #ffff00 100%);
+    -webkit-background-clip: text;
+        background-clip: text;
+	-webkit-text-fill-color: transparent;
+    
+}
