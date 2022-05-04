@@ -5,14 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
-import { HomeComponent } from './screem/home/home.component';
+import { HomeComponent } from './screen/home/home.component';
+import { NosotrosComponent } from './screen/nosotros/nosotros.component';
+import { EstadoComponent } from './screen/estado/estado.component';
+import { TransporteComponent } from './screen/transporte/transporte.component';
+import { TarjetasComponent } from './screen/tarjetas/tarjetas.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CardComponent,
-    HomeComponent
+    HomeComponent,
+    NosotrosComponent,
+    EstadoComponent,
+    TransporteComponent,
+    TarjetasComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
