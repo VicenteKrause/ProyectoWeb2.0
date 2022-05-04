@@ -1,0 +1,31 @@
+.img-fluid{
+    width: 100%;
+}
+.imag {
+    float: left;
+    width: 40%;
+    padding: 5px;
+    height: 40%;
+    margin-top: 25px;
+}
+
+ 
+.row {
+    content: "";
+    clear: both;
+    display: flex;
+    justify-content: center; 
+}
+.row2 {
+    content: "";
+    clear: both;
+    display: flex;
+    justify-content: center; 
+}
+.imag2{
+    float: left;
+    width: 40%;
+    padding: 5px;
+    height: auto;
+    margin-bottom: 7%;
+  }
