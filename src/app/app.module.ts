@@ -11,6 +11,7 @@ import { EstadoComponent } from './screen/estado/estado.component';
 import { TransporteComponent } from './screen/transporte/transporte.component';
 import { TarjetasComponent } from './screen/tarjetas/tarjetas.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { LoginComponent } from './screen/login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     EstadoComponent,
     TransporteComponent,
     TarjetasComponent,
-    CarouselComponent
+    CarouselComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
