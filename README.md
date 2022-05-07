@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Funcionalidades (CRUD)
+
+
+Inciar sesion de  usuariso
+Recargar saldo tarjeta
+
+## liks
+https://www.figma.com/file/vVSKkFl47LsZtNblLep0db
+Contiene las interfaces de Trasporte , home y nosotros
+
+https://www.figma.com/file/wsJYB4yFhXPmxuhdPBEzdB
+Contiene las interfaces de login , tarjetas y estado

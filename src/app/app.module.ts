@@ -12,6 +12,7 @@ import { TransporteComponent } from './screen/transporte/transporte.component';
 import { TarjetasComponent } from './screen/tarjetas/tarjetas.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { LoginComponent } from './screen/login/login.component';
+import { SingUpComponent } from './screen/sing-up/sing-up.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginComponent } from './screen/login/login.component';
     TransporteComponent,
     TarjetasComponent,
     CarouselComponent,
-    LoginComponent
+    LoginComponent,
+    SingUpComponent
   ],
   imports: [
     BrowserModule,
