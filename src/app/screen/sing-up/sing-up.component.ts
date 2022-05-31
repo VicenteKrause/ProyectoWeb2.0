@@ -15,6 +15,6 @@ export class SingUpComponent implements OnInit {
   }
 
   login(){
-    window.history.back();
+    window.location.replace('/home');
   }
 }

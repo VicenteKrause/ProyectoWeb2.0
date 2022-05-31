@@ -7,6 +7,10 @@ import { TarjetasComponent } from './screen/tarjetas/tarjetas.component';
 import { TransporteComponent } from './screen/transporte/transporte.component';
 import { LoginComponent } from './screen/login/login.component';
 import { SingUpComponent } from './screen/sing-up/sing-up.component';
+import { MetroComponent } from './screen/metro/metro.component';
+import { TaxiComponent } from './screen/taxi/taxi.component';
+import { ColectivoComponent } from './screen/colectivo/colectivo.component';
+import { MicrosComponent } from './screen/micros/micros.component';
 
 const routes: Routes = [
   { path: ' ', redirectTo: '/home', pathMatch: 'full' },
@@ -17,6 +21,10 @@ const routes: Routes = [
   { path: 'transporte',component: TransporteComponent },
   { path: 'login',component: LoginComponent },
   { path: 'singup',component: SingUpComponent },
+  { path: 'metro',component: MetroComponent },
+  { path: 'taxi',component: TaxiComponent },
+  { path: 'colectivo',component: ColectivoComponent },
+  { path: 'micros',component: MicrosComponent },
 ];
 
 @NgModule({

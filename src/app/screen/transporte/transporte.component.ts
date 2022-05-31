@@ -12,4 +12,16 @@ export class TransporteComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  metro(){
+    window.location.href='./metro';
+  }
+  taxi(){
+    window.location.href='./taxi';
+  }
+  colectivo(){
+    window.location.href='./colectivo';
+  }
+  micros(){
+    window.location.href='./micros'
+  }
 }

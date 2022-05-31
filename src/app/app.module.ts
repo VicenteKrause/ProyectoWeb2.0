@@ -13,6 +13,10 @@ import { TarjetasComponent } from './screen/tarjetas/tarjetas.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { LoginComponent } from './screen/login/login.component';
 import { SingUpComponent } from './screen/sing-up/sing-up.component';
+import { MetroComponent } from './screen/metro/metro.component';
+import { TaxiComponent } from './screen/taxi/taxi.component';
+import { ColectivoComponent } from './screen/colectivo/colectivo.component';
+import { MicrosComponent } from './screen/micros/micros.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { SingUpComponent } from './screen/sing-up/sing-up.component';
     TarjetasComponent,
     CarouselComponent,
     LoginComponent,
-    SingUpComponent
+    SingUpComponent,
+    MetroComponent,
+    TaxiComponent,
+    ColectivoComponent,
+    MicrosComponent
   ],
   imports: [
     BrowserModule,
