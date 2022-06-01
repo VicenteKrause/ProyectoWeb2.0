@@ -22,3 +22,23 @@
 .recarga h1{
     margin-left: 2%;
 }
+.fa-circle-plus{
+    float:left;
+    color: rgb(1, 48, 255);
+    font-size: x-large;
+}
+.fa-minus-circle{
+    float:left;
+    padding-left: 5%;
+    color: rgb(1, 48, 255);
+    font-size: x-large;
+}
+.plus :hover{
+    color: rgb(107, 187, 2);
+}
+.minus :hover{
+    color: red;
+}
+.money{
+    clear:both;
+}

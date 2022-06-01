@@ -22,10 +22,16 @@
     </div>
     <div class="recarga">
         <h2>Ingrese monto</h2>
-        <i class="fa-solid fa-circle-plus" (click)="suma()" ></i>
-        <!-- <button class="boton" (click)="suma()"><i class="fa-solid fa-circle-plus"></i> </button> -->
-        <button class="boton" (click)="resta()"> - </button>
-        <h1>{{exampleNum}}</h1>
+        <div class="plus">
+            <i class="fa fa-circle-plus" (click)="suma()" ></i>
+        </div>        
+        
+        <div class="minus">
+            <i class="fa fa-minus-circle" aria-hidden="true" (click)="resta()"></i>
+        </div>
+        <div class="money">
+            <h1>{{exampleNum}}</h1>
+        </div>        
         <button type="button" class="btn btn-outline-primary" (click)="home()">Confirmar</button>
     </div>
 </div>
