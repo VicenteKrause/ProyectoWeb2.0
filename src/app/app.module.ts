@@ -18,6 +18,7 @@ import { TaxiComponent } from './screen/taxi/taxi.component';
 import { ColectivoComponent } from './screen/colectivo/colectivo.component';
 import { MicrosComponent } from './screen/micros/micros.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { ListUsersComponent } from './screen/list-users/list-users.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     MetroComponent,
     TaxiComponent,
     ColectivoComponent,
-    MicrosComponent
+    MicrosComponent,
+    ListUsersComponent
   ],
   imports: [
     BrowserModule,
