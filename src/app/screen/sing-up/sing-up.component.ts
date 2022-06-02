@@ -10,6 +10,7 @@ import { listUsers, User} from 'src/app/Interface/users';
 export class SingUpComponent implements OnInit {
   formulario:FormGroup;
   password:AbstractControl;
+  mail:AbstractControl;
   listUsers:Array<User> = [];
 
 
@@ -17,9 +18,11 @@ export class SingUpComponent implements OnInit {
 
     this.formulario=this.fb.group({
      password:['',[Validators.required]],
+     mail:['',[Validators.required]],
     });
 
     this.password = this.formulario.controls["password"];
+    this.mail = this.formulario.controls["mail"];
     this.listUsers = listUsers;
   }  
   
@@ -36,6 +39,7 @@ export class SingUpComponent implements OnInit {
     
     let usuario:User={
       password:this.password.value,
+      mail:this.mail.value
     }
     this.listUsers.push(usuario);
     
