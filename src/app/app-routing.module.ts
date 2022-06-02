@@ -11,6 +11,7 @@ import { MetroComponent } from './screen/metro/metro.component';
 import { TaxiComponent } from './screen/taxi/taxi.component';
 import { ColectivoComponent } from './screen/colectivo/colectivo.component';
 import { MicrosComponent } from './screen/micros/micros.component';
+import { ListUsersComponent } from './screen/list-users/list-users.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -25,7 +26,9 @@ const routes: Routes = [
   { path: 'taxi',component: TaxiComponent },
   { path: 'colectivo',component: ColectivoComponent },
   { path: 'micros',component: MicrosComponent },
+  { path: 'listUsers',component: ListUsersComponent },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
