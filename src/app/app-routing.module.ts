@@ -13,7 +13,7 @@ import { ColectivoComponent } from './screen/colectivo/colectivo.component';
 import { MicrosComponent } from './screen/micros/micros.component';
 
 const routes: Routes = [
-  { path: ' ', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home',component: HomeComponent },
   { path: 'nosotros',component: NosotrosComponent },
   { path: 'estado',component: EstadoComponent },

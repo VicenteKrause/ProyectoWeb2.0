@@ -1,2 +1,22 @@
-<body style="background-color:rgb(84, 255, 172)"></body>
-<p>micros works!</p>
+<body style="background-color:rgb(84, 255, 172)">
+    <div class="componente-lista">
+        <div class="alert alert-primary" role="alert" *ngIf="listUsers.length == 0">
+            Aun no has añadido ningun contacto
+        </div>
+        
+        <table class="table table-bordered" *ngIf="listUsers.length > 0">
+            <thead>
+                <tr>
+                    <th>Nombre Completo</th>
+                    
+                </tr>
+                
+            </thead>
+            <tbody *ngFor="let item of listUsers">
+                <tr>
+                    <td>{{item.password}}</td>                    
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>

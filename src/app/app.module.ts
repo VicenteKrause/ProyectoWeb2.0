@@ -17,6 +17,7 @@ import { MetroComponent } from './screen/metro/metro.component';
 import { TaxiComponent } from './screen/taxi/taxi.component';
 import { ColectivoComponent } from './screen/colectivo/colectivo.component';
 import { MicrosComponent } from './screen/micros/micros.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MicrosComponent } from './screen/micros/micros.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

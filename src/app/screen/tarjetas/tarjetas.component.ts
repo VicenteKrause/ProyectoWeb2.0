@@ -33,6 +33,7 @@ export class TarjetasComponent implements OnInit {
     }else{
       window.alert("No puede ser inferior a $150 pesitos");
     }
+    
   }
   home(){
     window.location.href="/home";

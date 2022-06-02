@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { listUsers, User} from 'src/app/Interface/users';
 
 @Component({
   selector: 'app-sing-up',
@@ -7,14 +8,39 @@ import { Router } from '@angular/router';
   styleUrls: ['./sing-up.component.scss']
 })
 export class SingUpComponent implements OnInit {
+  formulario:FormGroup;
+  password:AbstractControl;
+  listUsers:Array<User> = [];
 
-  constructor(private router:Router){}
+
+  constructor(public fb:FormBuilder){
+
+    this.formulario=this.fb.group({
+     password:['',[Validators.required]],
+    });
+
+    this.password = this.formulario.controls["password"];
+    this.listUsers = listUsers;
+  }  
   
+
+ 
 
   ngOnInit(): void {
   }
 
   login(){
-    window.location.replace('/home');
+   console.log();
   }
+  crear() {
+    
+    let usuario:User={
+      password:this.password.value,
+    }
+    this.listUsers.push(usuario);
+    
+    console.log(this.listUsers);
+    
+  }
+  
 }
